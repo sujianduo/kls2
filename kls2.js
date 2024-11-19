@@ -27,71 +27,71 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_10 = function() {
+(lib.CachedBmp_20 = function() {
 	this.initialize(ss["kls2_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_9 = function() {
+(lib.CachedBmp_19 = function() {
 	this.initialize(ss["kls2_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_8 = function() {
+(lib.CachedBmp_18 = function() {
 	this.initialize(ss["kls2_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_7 = function() {
+(lib.CachedBmp_17 = function() {
 	this.initialize(ss["kls2_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_6 = function() {
+(lib.CachedBmp_16 = function() {
 	this.initialize(ss["kls2_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_5 = function() {
+(lib.CachedBmp_15 = function() {
 	this.initialize(ss["kls2_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_4 = function() {
+(lib.CachedBmp_14 = function() {
 	this.initialize(ss["kls2_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3 = function() {
+(lib.CachedBmp_13 = function() {
 	this.initialize(ss["kls2_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2 = function() {
+(lib.CachedBmp_12 = function() {
 	this.initialize(ss["kls2_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1 = function() {
-	this.initialize(img.CachedBmp_1);
+(lib.CachedBmp_11 = function() {
+	this.initialize(img.CachedBmp_11);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2175,304);
 
@@ -165,7 +165,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_3
-	this.instance = new lib.CachedBmp_10();
+	this.instance = new lib.CachedBmp_20();
 	this.instance.setTransform(-78.15,-29.8,0.3333,0.3333);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3));
@@ -301,7 +301,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.shape_4},{t:this.shape_1},{t:this.shape_3}]},1).to({state:[{t:this.shape_6},{t:this.shape_1},{t:this.shape_5}]},1).to({state:[{t:this.shape_8},{t:this.shape_1},{t:this.shape_7}]},1).to({state:[{t:this.shape_10},{t:this.shape_1},{t:this.shape_9}]},1).to({state:[{t:this.shape_12},{t:this.shape_1},{t:this.shape_11}]},1).to({state:[{t:this.shape_14},{t:this.shape_1},{t:this.shape_13}]},1).to({state:[{t:this.shape_16},{t:this.shape_1},{t:this.shape_15}]},1).to({state:[{t:this.shape_18},{t:this.shape_1},{t:this.shape_17}]},1).to({state:[{t:this.shape_20},{t:this.shape_1},{t:this.shape_19}]},1).to({state:[{t:this.shape_22},{t:this.shape_1},{t:this.shape_21}]},1).to({state:[{t:this.shape_24},{t:this.shape_1},{t:this.shape_23}]},1).to({state:[{t:this.shape_26},{t:this.shape_1},{t:this.shape_25}]},1).wait(1));
 
 	// Layer_2
-	this.instance = new lib.CachedBmp_9();
+	this.instance = new lib.CachedBmp_19();
 	this.instance.setTransform(-38.75,-44.6,0.3549,0.3549);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(13));
@@ -419,25 +419,25 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_3
-	this.instance = new lib.CachedBmp_3();
+	this.instance = new lib.CachedBmp_13();
 	this.instance.setTransform(-137.55,50.15,0.3125,0.3125);
 
-	this.instance_1 = new lib.CachedBmp_2();
+	this.instance_1 = new lib.CachedBmp_12();
 	this.instance_1.setTransform(-39.15,-70.2,0.3125,0.3125);
 
-	this.instance_2 = new lib.CachedBmp_5();
+	this.instance_2 = new lib.CachedBmp_15();
 	this.instance_2.setTransform(-141.15,49.25,0.3125,0.3125);
 
-	this.instance_3 = new lib.CachedBmp_4();
+	this.instance_3 = new lib.CachedBmp_14();
 	this.instance_3.setTransform(-39.15,-70.2,0.3125,0.3125);
 
-	this.instance_4 = new lib.CachedBmp_6();
+	this.instance_4 = new lib.CachedBmp_16();
 	this.instance_4.setTransform(-92.05,58.3,0.3125,0.3125);
 
 	this.instance_5 = new lib.waktuhabis();
 	this.instance_5.setTransform(-151,-73,0.8287,0.8505);
 
-	this.instance_6 = new lib.CachedBmp_7();
+	this.instance_6 = new lib.CachedBmp_17();
 	this.instance_6.setTransform(-63.55,52,0.3125,0.3125);
 
 	this.instance_7 = new lib.selesai();
@@ -457,7 +457,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_1},{t:this.shape}]},1).wait(4));
 
 	// Layer_1
-	this.instance_8 = new lib.CachedBmp_8();
+	this.instance_8 = new lib.CachedBmp_18();
 	this.instance_8.setTransform(-93.3,-33,0.3125,0.3125);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_8).to({_off:true},1).wait(4));
@@ -680,8 +680,8 @@ if (reversed == null) { reversed = false; }
 					["Laut", "海 hǎi", "天 tiān", "山 shān", "路 lù"],
 					["Berjalan", "走 zǒu", "路 lù", "游 yóu", "停 tínɡ"],
 					["Berhenti", "停 tínɡ", "跑 pǎo", "飞 fēi", "走 zǒu"],
-					["Terbang", "飞 fēi", "航行hánɡ xínɡ", "行驶 xínɡ shǐ", "游 yóu"],
-					["Berlayar", "航行hánɡ xínɡ", "行驶 xínɡ shǐ", "飞 fēi", "骑车 qí chē"],
+					["Terbang", "飞 fēi", "航行 hánɡ xínɡ", "行驶 xínɡ shǐ", "游 yóu"],
+					["Berlayar", "航行 hánɡ xínɡ", "行驶 xínɡ shǐ", "飞 fēi", "骑车 qí chē"],
 					["Wǒ qí zì xínɡ chē", "我骑自行车。", "爸爸开汽车。", "妈妈坐飞机。", "姐姐坐火车。"],
 					["Bà ba kāi qì chē", "爸爸开汽车。", "我骑自行车。", "妈妈坐飞机。", "姐姐坐火车。"],
 					["Mā ma zuò fēi jī", "妈妈坐飞机。", "姐姐坐火车。", "爸爸开汽车。", "我骑自行车。"],
@@ -726,7 +726,7 @@ if (reversed == null) { reversed = false; }
 	this.mulaiBtn.setTransform(732.4,524,1.5,1.5);
 	new cjs.ButtonHelper(this.mulaiBtn, 0, 1, 2);
 
-	this.instance = new lib.CachedBmp_1();
+	this.instance = new lib.CachedBmp_11();
 	this.instance.setTransform(240.25,221.25,0.5,0.5);
 
 	this.timerKuis = new lib.timerMC2();
@@ -764,13 +764,13 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_1.png?1732059518138", id:"CachedBmp_1"},
-		{src:"images/IMG_20240813_085601.png?1732059518138", id:"IMG_20240813_085601"},
-		{src:"images/kls2_atlas_1.png?1732059518035", id:"kls2_atlas_1"},
-		{src:"sounds/wan.mp3?1732059518138", id:"wan"},
-		{src:"sounds/dui.mp3?1732059518138", id:"dui"},
-		{src:"sounds/cuo.mp3?1732059518138", id:"cuo"},
-		{src:"sounds/dao.mp3?1732059518138", id:"dao"}
+		{src:"images/CachedBmp_11.png?1732060601047", id:"CachedBmp_11"},
+		{src:"images/IMG_20240813_085601.png?1732060601047", id:"IMG_20240813_085601"},
+		{src:"images/kls2_atlas_1.png?1732060600957", id:"kls2_atlas_1"},
+		{src:"sounds/wan.mp3?1732060601047", id:"wan"},
+		{src:"sounds/dui.mp3?1732060601047", id:"dui"},
+		{src:"sounds/cuo.mp3?1732060601047", id:"cuo"},
+		{src:"sounds/dao.mp3?1732060601047", id:"dao"}
 	],
 	preloads: []
 };
