@@ -764,13 +764,13 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_1.png?1732012222910", id:"CachedBmp_1"},
-		{src:"images/IMG_20240813_085601.png?1732012222910", id:"IMG_20240813_085601"},
-		{src:"images/kls2_atlas_1.png?1732012222789", id:"kls2_atlas_1"},
-		{src:"sounds/wan.mp3?1732012222910", id:"wan"},
-		{src:"sounds/dui.mp3?1732012222910", id:"dui"},
-		{src:"sounds/cuo.mp3?1732012222910", id:"cuo"},
-		{src:"sounds/dao.mp3?1732012222910", id:"dao"}
+		{src:"images/CachedBmp_1.png?1732059518138", id:"CachedBmp_1"},
+		{src:"images/IMG_20240813_085601.png?1732059518138", id:"IMG_20240813_085601"},
+		{src:"images/kls2_atlas_1.png?1732059518035", id:"kls2_atlas_1"},
+		{src:"sounds/wan.mp3?1732059518138", id:"wan"},
+		{src:"sounds/dui.mp3?1732059518138", id:"dui"},
+		{src:"sounds/cuo.mp3?1732059518138", id:"cuo"},
+		{src:"sounds/dao.mp3?1732059518138", id:"dao"}
 	],
 	preloads: []
 };
