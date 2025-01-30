@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"kls2_atlas_1", frames: [[1408,1671,474,168],[743,1682,218,142],[954,1368,650,185],[0,1516,419,162],[743,1555,663,125],[954,1082,932,141],[1606,1368,301,301],[954,1225,910,141],[440,1446,301,301],[743,1446,200,90],[0,0,1920,1080],[0,1082,438,432],[440,1082,512,362],[0,1680,369,138]]}
+		{name:"kls2_atlas_1", frames: [[743,1725,474,168],[1219,1725,254,166],[954,1398,650,185],[0,1516,419,162],[743,1585,663,138],[954,1082,932,156],[1606,1398,301,334],[954,1240,910,156],[440,1446,301,334],[743,1446,200,90],[0,0,1920,1080],[0,1082,438,432],[440,1082,512,362],[0,1680,369,138]]}
 ];
 
 
@@ -93,7 +93,7 @@ lib.ssMetadata = [
 (lib.CachedBmp_11 = function() {
 	this.initialize(img.CachedBmp_11);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2175,304);
+p.nominalBounds = new cjs.Rectangle(0,0,2231,154);
 
 
 (lib.bar1 = function() {
@@ -110,8 +110,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,2175,304);
 
 
 
-(lib.IMG_20240813_085601 = function() {
-	this.initialize(img.IMG_20240813_085601);
+(lib.IMG_20240813_085601removebg = function() {
+	this.initialize(img.IMG_20240813_085601removebg);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,4608,2592);
 
@@ -302,7 +302,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.instance = new lib.CachedBmp_19();
-	this.instance.setTransform(-38.75,-44.6,0.3549,0.3549);
+	this.instance.setTransform(-38.75,-44.6,0.3042,0.3042);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(13));
 
@@ -352,23 +352,23 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_2
-	this.jawaban_txt = new cjs.Text("jawaban", "30px 'DengXian'", "#FFFFFF");
+	this.jawaban_txt = new cjs.Text("jawaban", "30px 'DengXian'");
 	this.jawaban_txt.name = "jawaban_txt";
 	this.jawaban_txt.textAlign = "center";
 	this.jawaban_txt.lineHeight = 33;
-	this.jawaban_txt.lineWidth = 338;
+	this.jawaban_txt.lineWidth = 342;
 	this.jawaban_txt.parent = this;
-	this.jawaban_txt.setTransform(1.25,-11.8);
+	this.jawaban_txt.setTransform(0.65,-13.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.jawaban_txt).wait(3));
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#0033CC").s().p("A5vF9QjIABAAjIIAAlrQAAjHDIgBMAzfAAAQDIABAADHIAAFrQAADIjIgBgA7th0IAADqQAAC+C+AAMAxgAAAQC+AAAAi+IAAjqQAAi/i+AAMgxgAAAQi+AAAAC/g");
+	this.shape.graphics.f("#996600").s().p("A5vF9QjIABAAjIIAAlrQAAjHDIgBMAzfAAAQDIABAADHIAAFrQAADIjIgBgA7th0IAADqQAAC+C+AAMAxgAAAQC+AAAAi+IAAjqQAAi/i+AAMgxgAAAQi+AAAAC/g");
 	this.shape.setTransform(1.1,1.9);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#0000FF").s().p("A4XEYQi6AAAAi6IAAi6QAAi7C6AAMAwvAAAQC6AAAAC7IAAC6QAAC6i6AAg");
+	this.shape_1.graphics.f("#FFFF00").s().p("A4XEYQi6AAAAi6IAAi6QAAi7C6AAMAwvAAAQC6AAAAC7IAAC6QAAC6i6AAg");
 	this.shape_1.setTransform(1.125,1.925);
 
 	this.shape_2 = new cjs.Shape();
@@ -380,26 +380,18 @@ if (reversed == null) { reversed = false; }
 	this.shape_3.setTransform(1.1,1.9);
 
 	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.f("#A2FD7D").s().p("A4HBWQgjAAgZgaQgZgZAAgjQAAgiAZgaQAZgZAjAAMAwOAAAQAkAAAZAZQAZAZABAjQgBAkgZAYQgYAaglAAg");
-	this.shape_4.setTransform(0.75,-11);
+	this.shape_4.graphics.f("#42BE22").s().p("A4XEYQi6AAAAi6IAAi6QAAi7C6AAMAwvAAAQC6AAAAC7IAAC6QAAC6i6AAgA5Hi9QgYAZAbgcIAKgJIgNAMg");
+	this.shape_4.setTransform(1.125,1.925);
 
 	this.shape_5 = new cjs.Shape();
-	this.shape_5.graphics.f("#42BE22").s().p("A4XEYQi6AAAAi6IAAi6QAAi7C6AAMAwvAAAQC6AAAAC7IAAC6QAAC6i6AAgA5Hi9QgZAaAAAjQAAAjAZAZQAZAaAkAAMAwOAAAQAkAAAYgaQAagYAAgkQAAgkgagZQgZgZgjAAMgwOAAAQgjAAgaAZg");
-	this.shape_5.setTransform(1.125,1.925);
+	this.shape_5.graphics.f("#4F0A0A").s().p("A5vF9QjIABAAjIIAAlrQAAjHDIgBMAzfAAAQDIABAADHIAAFrQAADIjIgBgA7th0IAADqQAAC+C+AAMAxgAAAQC+AAAAi+IAAjqQAAi/i+AAMgxgAAAQi+AAAAC/g");
+	this.shape_5.setTransform(1.1,1.9);
 
 	this.shape_6 = new cjs.Shape();
-	this.shape_6.graphics.f("#4F0A0A").s().p("A5vF9QjIABAAjIIAAlrQAAjHDIgBMAzfAAAQDIABAADHIAAFrQAADIjIgBgA7th0IAADqQAAC+C+AAMAxgAAAQC+AAAAi+IAAjqQAAi/i+AAMgxgAAAQi+AAAAC/g");
-	this.shape_6.setTransform(1.1,1.9);
+	this.shape_6.graphics.f("#AD1818").s().p("A4XEYQi6AAAAi6IAAi6QAAi7C6AAMAwvAAAQC6AAAAC7IAAC6QAAC6i6AAg");
+	this.shape_6.setTransform(1.125,1.925);
 
-	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.f("#D86B6B").s().p("A4HBWQgjAAgZgaQgZgZAAgjQAAgiAZgaQAZgZAjAAMAwOAAAQAkAAAZAZQAZAZABAjQgBAkgZAYQgYAaglAAg");
-	this.shape_7.setTransform(0.75,-11);
-
-	this.shape_8 = new cjs.Shape();
-	this.shape_8.graphics.f("#AD1818").s().p("A4XEYQi6AAAAi6IAAi6QAAi7C6AAMAwvAAAQC6AAAAC7IAAC6QAAC6i6AAgA5Hi9QgZAaAAAjQAAAjAZAZQAZAaAkAAMAwOAAAQAkAAAYgaQAagYAAgkQAAgkgagZQgZgZgjAAMgwOAAAQgjAAgaAZg");
-	this.shape_8.setTransform(1.125,1.925);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2}]},1).to({state:[{t:this.shape_2},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.shape_4},{t:this.shape_3},{t:this.shape_2}]},1).to({state:[{t:this.shape_2},{t:this.shape_6},{t:this.shape_5}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -418,7 +410,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_3
+	// Layer_2
 	this.instance = new lib.CachedBmp_13();
 	this.instance.setTransform(-137.55,50.15,0.3125,0.3125);
 
@@ -445,7 +437,7 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1},{t:this.instance}]},1).to({state:[{t:this.instance_3},{t:this.instance_2}]},1).to({state:[{t:this.instance_5},{t:this.instance_4}]},1).to({state:[{t:this.instance_7},{t:this.instance_6}]},1).wait(1));
 
-	// Layer_2
+	// Layer_3
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFF00").s().p("EghrAPvIAA/dMBDXAAAIAAfdg");
 	this.shape.setTransform(0.75,3.2);
@@ -598,24 +590,24 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.jawabKuis1},{t:this.jawabKuis2},{t:this.jawabKuis3},{t:this.jawabKuis4}]}).wait(1));
 
 	// aset
-	this.no_soal_txt = new cjs.Text("no.", "40px 'SimHei'");
+	this.no_soal_txt = new cjs.Text("no.", "40px 'Arial'");
 	this.no_soal_txt.name = "no_soal_txt";
 	this.no_soal_txt.textAlign = "right";
-	this.no_soal_txt.lineHeight = 42;
+	this.no_soal_txt.lineHeight = 47;
 	this.no_soal_txt.lineWidth = 74;
 	this.no_soal_txt.parent = this;
-	this.no_soal_txt.setTransform(-352.75,-103.4);
+	this.no_soal_txt.setTransform(-358.35,-103.4);
 
 	this.hasilMC = new lib.hasilKuisMC();
 	this.hasilMC.name = "hasilMC";
 	this.hasilMC.setTransform(0,-217.65);
 
-	this.soal_txt = new cjs.Text("Dynamic text soal", "40px 'SimHei'");
+	this.soal_txt = new cjs.Text("Dynamic text soal", "40px 'Arial'");
 	this.soal_txt.name = "soal_txt";
-	this.soal_txt.lineHeight = 42;
-	this.soal_txt.lineWidth = 759;
+	this.soal_txt.lineHeight = 47;
+	this.soal_txt.lineWidth = 785;
 	this.soal_txt.parent = this;
-	this.soal_txt.setTransform(-341.55,-103.2);
+	this.soal_txt.setTransform(-347.15,-103.2);
 
 	this.jawaban_4 = new lib.jawabanMC();
 	this.jawaban_4.name = "jawaban_4";
@@ -637,7 +629,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.kuisMC, new cjs.Rectangle(-428.5,-250.6,848,426.2), null);
+}).prototype = getMCSymbolPrototype(lib.kuisMC, new cjs.Rectangle(-434.1,-250.6,873.8,426.2), null);
 
 
 // stage content:
@@ -662,37 +654,30 @@ if (reversed == null) { reversed = false; }
 		mpi.click("mulaiBtn", 10);
 	}
 	this.frame_9 = function() {
-		var soal = [["Mobil", "汽车 qì chē", "自行车 zì xíng chē", "火车 huǒ chē", "三轮车 sān lún chē"],			  
-					["Kereta api", "火车 huǒ chē", "汽车 qì chē", "三轮车 sān lún chē", "自行车 zì xíng chē"],
-					["Sepeda", "自行车 zì xíng chē", "汽车 qì chē", "火车 huǒ chē", "三轮车 sān lún chē"],
-					["Becak", "三轮车 sān lún chē", "飞机 fēi jī", "轮船 lún chuán", "自行车 zì xíng chē"],
-					["Pesawat terbang", "飞机 fēi jī", "自行车 zì xíng chē", "轮船 lún chuán", "火车 huǒ chē"],
-					["Kapal", "轮船 lún chuán", "飞机 fēi jī", "三轮车 sān lún chē", "汽车 qì chē"],
-					["Naik kendaraan", "坐车 zuò chē", "开车 kāi chē", "骑车 qí chē", "下车 xià chē"],
-					["Mengemudi mobil", "开车 kāi chē", "坐车 zuò chē", "骑车 qí chē", "上车 shàng chē"],
-					["Mengendarai sepeda", "骑车 qí chē", "坐车 zuò chē", "开车 kāi chē", "上车 shàng chē"],
-					["Naik ke kendaraan", "上车 shàng chē", "下车 xià chē", "坐车 zuò chē", "骑车 qí chē"],
-					["Sopir", "司机 sī jī", "老师 lǎo shī", "我们 wǒ men", "汽车 qì chē"],
-					["Tidak", "不 bù", "会 huì", "在 zài", "骑 qí"],
-					["Bisa", "会 huì", "不 bù", "在 zài", "开 kāi"],
-					["Di", "在 zài", "会 huì", "不 bù", "坐 zuò"],
-					["Langit", "天 tiān", "路 lù", "海 hǎi", "山 shān"],
-					["Laut", "海 hǎi", "天 tiān", "山 shān", "路 lù"],
-					["Berjalan", "走 zǒu", "路 lù", "游 yóu", "停 tínɡ"],
-					["Berhenti", "停 tínɡ", "跑 pǎo", "飞 fēi", "走 zǒu"],
-					["Terbang", "飞 fēi", "航行 hánɡ xínɡ", "行驶 xínɡ shǐ", "游 yóu"],
-					["Berlayar", "航行 hánɡ xínɡ", "行驶 xínɡ shǐ", "飞 fēi", "骑车 qí chē"],
-					["Wǒ qí zì xínɡ chē", "我骑自行车。", "爸爸开汽车。", "妈妈坐飞机。", "姐姐坐火车。"],
-					["Bà ba kāi qì chē", "爸爸开汽车。", "我骑自行车。", "妈妈坐飞机。", "姐姐坐火车。"],
-					["Mā ma zuò fēi jī", "妈妈坐飞机。", "姐姐坐火车。", "爸爸开汽车。", "我骑自行车。"],
-					["Jiě jie zuò huǒ chē", "姐姐坐火车。", "妈妈坐飞机。", "爸爸开汽车。", "我骑自行车。"],
-					["Saya bisa mengendarai sepeda. wǒ huì qí zì xínɡ chē", "我会骑自行车。", "我坐汽车去学校。", "司机开汽车。", "轮船在海上航行。"],
-					["Saya pergi ke sekolah naik mobil. wǒ zuò qì chē qù xué xiào", "我坐汽车去学校。", "司机开汽车。", "轮船在海上航行。", "我会骑自行车。"],
-					["Sopir mengemudi mobil. sī jī kāi qì chē", "司机开汽车。", "轮船在海上航行。", "我会骑自行车。", "我坐汽车去学校。"],
-					["Kapal berlayar di laut. lún chuán zài hǎi shànɡ hánɡ xínɡ", "轮船在海上航行。", "我会骑自行车。", "我坐汽车去学校。", "司机开汽车。"]];
-					
+		var soal = [["吃 chī", "makan", "minum", "membeli", "mengambil"],
+					["喝 hē", "minum", "makan", "membeli", "mengantar"],
+					["买 mǎi", "membeli", "makan", "minum", "pergi"],
+					["牛奶 niú nǎi", "susu sapi", "roti", "bakpao", "nasi"],
+					["面包 miàn bāo", "roti", "susu sapi", "bakpao", "mie"],
+					["包子 bāo zi", "bakpao", "susu sapi", "roti", "kue tart"],
+					["豆腐 dòu fu", "tahu", "ikan", "daging", "telur"],
+					["鱼 yú", "ikan", "tahu", "daging", "telur"],
+					["肉 ròu", "daging", "tahu", "ikan", "telur"],
+					["蛋 dàn", "telur", "tahu", "ikan", "daging"],
+					["Buah", "水果 shuǐ guǒ", "青菜 qīng cài", "豆腐 dòu fu", "面包 miàn bāo"],
+					["Sayur hijau", "青菜 qīng cài", "水果 shuǐ guǒ", "豆腐 dòu fu", "面包 miàn bāo"],
+					["Apel", "苹果 píng guǒ", "香蕉 xiāng jiāo", "葡萄 pú táo", "西瓜 xī guā"],
+					["Pisang", "香蕉 xiāng jiāo", "苹果 píng guǒ", "葡萄 pú táo", "西瓜 xī guā"],
+					["Anggur", "葡萄 pú táo", "苹果 píng guǒ", "香蕉 xiāng jiāo", "西瓜 xī guā"],
+					["Semangka", "西瓜 xī guā", "苹果 píng guǒ", "香蕉 xiāng jiāo", "葡萄 pú táo"],
+					["Nasi", "米饭 mǐ fàn", "面条 miàn tiáo", "蛋糕 dàn gāo", "巧克力 qiǎo kè lì"],
+					["Mie", "面条 miàn tiáo", "米饭 mǐ fàn", "蛋糕 dàn gāo", "巧克力 qiǎo kè lì"],
+					["Kue tart", "蛋糕 dàn gāo", "米饭 mǐ fàn", "面条 miàn tiáo", "巧克力 qiǎo kè lì"],
+					["Cokelat", "巧克力 qiǎo kè lì", "米饭 mǐ fàn", "面条 miàn tiáo", "蛋糕 dàn gāo"],
+					["香蕉 xiāng jiāo", "Pisang", "Apel", "Anggur", "Semangka"]];
+		
 		var ob = this;
-		mpi.kuis("kuisMC", soal, 25, selesaiKuis);
+		mpi.kuis("kuisMC", soal, 20, selesaiKuis);
 		ob.kuisMC.opsi = "A";
 		ob.kuisMC.suaraBenar = "dui";
 		ob.kuisMC.suaraSalah = "cuo";
@@ -709,7 +694,7 @@ if (reversed == null) { reversed = false; }
 		mpi.startKuis();
 		
 		function selesaiKuis(){
-			mpi.popup("popupMC", "成绩", ""+ob.kuisMC.score/2.5, kembali);
+			mpi.popup("popupMC", "成绩", ""+ob.kuisMC.score/2, kembali);
 		}
 		
 		function kembali(){
@@ -727,15 +712,15 @@ if (reversed == null) { reversed = false; }
 	new cjs.ButtonHelper(this.mulaiBtn, 0, 1, 2);
 
 	this.instance = new lib.CachedBmp_11();
-	this.instance.setTransform(240.25,221.25,0.5,0.5);
+	this.instance.setTransform(164.25,295.2,0.5,0.5);
 
 	this.timerKuis = new lib.timerMC2();
 	this.timerKuis.name = "timerKuis";
-	this.timerKuis.setTransform(1320.9,114.95,1.409,1.409);
+	this.timerKuis.setTransform(1308.6,99.55,1.6438,1.6438);
 
 	this.kuisMC = new lib.kuisMC();
 	this.kuisMC.name = "kuisMC";
-	this.kuisMC.setTransform(719,358.8,1.6,1.5999);
+	this.kuisMC.setTransform(721,358.8,1.6,1.5999);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance},{t:this.mulaiBtn}]},5).to({state:[{t:this.kuisMC},{t:this.timerKuis}]},4).to({state:[]},1).wait(3));
 
@@ -743,18 +728,18 @@ if (reversed == null) { reversed = false; }
 	this.instance_1 = new lib.birutoscahd();
 	this.instance_1.setTransform(0,0,0.75,0.6686);
 
-	this.instance_2 = new lib.SD();
-	this.instance_2.setTransform(62,30,0.5,0.5);
+	this.instance_2 = new lib.IMG_20240813_085601removebg();
+	this.instance_2.setTransform(116,24,0.2585,0.2695);
 
-	this.instance_3 = new lib.IMG_20240813_085601();
-	this.instance_3.setTransform(86,31,0.2786,0.2786);
+	this.instance_3 = new lib.SD();
+	this.instance_3.setTransform(43,37,0.4979,0.4283);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1,p:{y:0}}]},1).to({state:[{t:this.instance_1,p:{y:-1}},{t:this.instance_3},{t:this.instance_2}]},4).to({state:[{t:this.instance_1,p:{y:0}}]},1).wait(7));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1},{t:this.instance_3},{t:this.instance_2}]},4).to({state:[{t:this.instance_1}]},4).wait(4));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,1440,753.2);
+p.nominalBounds = new cjs.Rectangle(0,0,1440,722.6);
 // library properties:
 lib.properties = {
 	id: '31BCA53C770DAE4A85A7336FD3DEAC60',
@@ -764,13 +749,13 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_11.png?1732060601047", id:"CachedBmp_11"},
-		{src:"images/IMG_20240813_085601.png?1732060601047", id:"IMG_20240813_085601"},
-		{src:"images/kls2_atlas_1.png?1732060600957", id:"kls2_atlas_1"},
-		{src:"sounds/wan.mp3?1732060601047", id:"wan"},
-		{src:"sounds/dui.mp3?1732060601047", id:"dui"},
-		{src:"sounds/cuo.mp3?1732060601047", id:"cuo"},
-		{src:"sounds/dao.mp3?1732060601047", id:"dao"}
+		{src:"images/CachedBmp_11.png?1738252442146", id:"CachedBmp_11"},
+		{src:"images/IMG_20240813_085601removebg.png?1738252442146", id:"IMG_20240813_085601removebg"},
+		{src:"images/kls2_atlas_1.png?1738252442050", id:"kls2_atlas_1"},
+		{src:"sounds/wan.mp3?1738252442146", id:"wan"},
+		{src:"sounds/dui.mp3?1738252442146", id:"dui"},
+		{src:"sounds/cuo.mp3?1738252442146", id:"cuo"},
+		{src:"sounds/dao.mp3?1738252442146", id:"dao"}
 	],
 	preloads: []
 };
