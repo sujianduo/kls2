@@ -679,10 +679,10 @@ if (reversed == null) { reversed = false; }
 					["Mulai masuk sekolah", "开学kāi xué", "早上zǎo shanɡ", "今天jīntiān", "上学shàngxué"],
 					["孩子hái zi", "anak", "murid", "guru", "teman"],
 					["写字xiě zì", "menulis", "bertemu", "belajar", "menggambar"],
-					["小红 ：你好nǐ hǎo！                                宝宝 ：......", "你好nǐ hǎo", "再见zài jiàn", "谢谢xiè xie", "什么shén me"],
-					["小红 ：再见zài jiàn！                              宝宝 ：......", "再见zài jiàn", "你好nǐ hǎo", "谢谢xiè xie", "什么shén me"],
+					["小红 ：你好nǐ hǎo！                                       宝宝 ：......", "你好nǐ hǎo", "再见zài jiàn", "谢谢xiè xie", "什么shén me"],
+					["小红 ：再见zài jiàn！                                     宝宝 ：......", "再见zài jiàn", "你好nǐ hǎo", "谢谢xiè xie", "什么shén me"],
 					["Adalah", "是shì", "好hǎo", "要yào", "学xué"],
-					["Hari Senin", "星期一", "星期二", "星期三", "星期天"],
+					["Hari Senin", "星期一xīng qī yī", "星期二xīng qī èr", "星期三xīng qī sān", "星期天xīng qī tiān"],
 					["Saya adalah murid SD.", "我是小学生。", "我要去学校。", "我是好孩子。", "我是好学生。"],
 					["Saya mau pergi ke sekolah.", "我要去学校。", "我是小学生。", "我是好学生。", "我是好孩子。"],
 					["Saya kelas 2.", "我上二年级。", "我是小学生。", "我去上学。", "我是好学生。"],
@@ -762,13 +762,13 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_1.png?1748225983585", id:"CachedBmp_1"},
-		{src:"images/IMG_20250430_101050.jpg?1748225983585", id:"IMG_20250430_101050"},
-		{src:"images/kls2_atlas_1.png?1748225983489", id:"kls2_atlas_1"},
-		{src:"sounds/dui.mp3?1748225983585", id:"dui"},
-		{src:"sounds/cuo.mp3?1748225983585", id:"cuo"},
-		{src:"sounds/wan.mp3?1748225983585", id:"wan"},
-		{src:"sounds/dao.mp3?1748225983585", id:"dao"}
+		{src:"images/CachedBmp_1.png?1748234611866", id:"CachedBmp_1"},
+		{src:"images/IMG_20250430_101050.jpg?1748234611866", id:"IMG_20250430_101050"},
+		{src:"images/kls2_atlas_1.png?1748234611781", id:"kls2_atlas_1"},
+		{src:"sounds/dui.mp3?1748234611866", id:"dui"},
+		{src:"sounds/cuo.mp3?1748234611866", id:"cuo"},
+		{src:"sounds/wan.mp3?1748234611866", id:"wan"},
+		{src:"sounds/dao.mp3?1748234611866", id:"dao"}
 	],
 	preloads: []
 };
