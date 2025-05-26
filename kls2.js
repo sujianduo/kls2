@@ -666,7 +666,7 @@ if (reversed == null) { reversed = false; }
 					["学校xué xiào", "sekolah", "lapangan", "kantin", "kantor"],
 					["Pergi", "去qù", "送sònɡ", "要yào", "见jiàn"],
 					["Mengantar", "送sònɡ", "去qù", "要yào", "见jiàn"],
-					["要yào", "mau", "mengantar", "pergi", "见jiàn"],
+					["要yào", "mau", "mengantar", "pergi", "pergi"],
 					["老师lǎo shī", "guru", "kepala sekolah", "murid", "teman"],
 					["Saya", "我wǒ", "你nǐ", "他tā", "好hǎo"],
 					["Kamu", "你nǐ", "我wǒ", "他tā", "好hǎo"],
@@ -762,13 +762,13 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_1.png?1748234611866", id:"CachedBmp_1"},
-		{src:"images/IMG_20250430_101050.jpg?1748234611866", id:"IMG_20250430_101050"},
-		{src:"images/kls2_atlas_1.png?1748234611781", id:"kls2_atlas_1"},
-		{src:"sounds/dui.mp3?1748234611866", id:"dui"},
-		{src:"sounds/cuo.mp3?1748234611866", id:"cuo"},
-		{src:"sounds/wan.mp3?1748234611866", id:"wan"},
-		{src:"sounds/dao.mp3?1748234611866", id:"dao"}
+		{src:"images/CachedBmp_1.png?1748236024597", id:"CachedBmp_1"},
+		{src:"images/IMG_20250430_101050.jpg?1748236024597", id:"IMG_20250430_101050"},
+		{src:"images/kls2_atlas_1.png?1748236024512", id:"kls2_atlas_1"},
+		{src:"sounds/dui.mp3?1748236024597", id:"dui"},
+		{src:"sounds/cuo.mp3?1748236024597", id:"cuo"},
+		{src:"sounds/wan.mp3?1748236024597", id:"wan"},
+		{src:"sounds/dao.mp3?1748236024597", id:"dao"}
 	],
 	preloads: []
 };
