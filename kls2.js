@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"kls2_atlas_1", frames: [[743,1725,474,168],[1219,1725,218,142],[954,1398,650,185],[0,1516,419,162],[743,1585,663,138],[954,1082,932,156],[1606,1398,301,334],[954,1240,910,156],[440,1446,301,334],[743,1446,200,90],[0,0,1920,1080],[0,1082,438,432],[440,1082,512,362],[0,1680,369,138]]}
+		{name:"kls2_atlas_1", frames: [[1408,1671,474,168],[743,1682,218,142],[954,1368,650,185],[0,1516,419,162],[743,1555,663,125],[954,1082,932,141],[1606,1368,301,301],[954,1225,910,141],[440,1446,301,301],[743,1446,200,90],[0,0,1920,1080],[0,1082,438,432],[440,1082,512,362],[0,1680,369,138]]}
 ];
 
 
@@ -594,10 +594,10 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.jawabKuis1},{t:this.jawabKuis2},{t:this.jawabKuis3},{t:this.jawabKuis4}]}).wait(1));
 
 	// aset
-	this.no_soal_txt = new cjs.Text("no.", "40px 'Arial'");
+	this.no_soal_txt = new cjs.Text("no.", "40px 'SimHei'");
 	this.no_soal_txt.name = "no_soal_txt";
 	this.no_soal_txt.textAlign = "right";
-	this.no_soal_txt.lineHeight = 47;
+	this.no_soal_txt.lineHeight = 42;
 	this.no_soal_txt.lineWidth = 74;
 	this.no_soal_txt.parent = this;
 	this.no_soal_txt.setTransform(-352.75,-103.4);
@@ -606,9 +606,9 @@ if (reversed == null) { reversed = false; }
 	this.hasilMC.name = "hasilMC";
 	this.hasilMC.setTransform(0,-217.65);
 
-	this.soal_txt = new cjs.Text("Dynamic text soal", "40px 'Arial'");
+	this.soal_txt = new cjs.Text("Dynamic text soal", "40px 'SimHei'");
 	this.soal_txt.name = "soal_txt";
-	this.soal_txt.lineHeight = 47;
+	this.soal_txt.lineHeight = 42;
 	this.soal_txt.lineWidth = 759;
 	this.soal_txt.parent = this;
 	this.soal_txt.setTransform(-341.55,-103.2);
@@ -658,39 +658,30 @@ if (reversed == null) { reversed = false; }
 		mpi.click("mulaiBtn", 10);
 	}
 	this.frame_9 = function() {
-		var soal = [["学生xué shenɡ", "murid", "kepala sekolah", "guru", "teman sekolah"],
-					["小学xiǎo xué", "SD", "SMP", "TK", "SMA"],
-					["Murid SD", "小学生xiǎo xué shēng", "初中生chūzhōngshēng", "高中生gāozhōngshēng", "大学生dà xué shēng"],
-					["Tingkat kelas", "年级nián jí", "年龄nián línɡ", "成绩chénɡ jì", "今年jīn nián"],
-					["同学tónɡ xué", "teman sekolah", "anak", "guru", "kepala sekolah"],
-					["学校xué xiào", "sekolah", "lapangan", "kantin", "kantor"],
-					["Pergi", "去qù", "送sònɡ", "要yào", "见jiàn"],
-					["Mengantar", "送sònɡ", "去qù", "要yào", "见jiàn"],
-					["要yào", "mau", "mengantar", "pergi", "pergi"],
-					["老师lǎo shī", "guru", "kepala sekolah", "murid", "teman"],
-					["Saya", "我wǒ", "你nǐ", "他tā", "好hǎo"],
-					["Kamu", "你nǐ", "我wǒ", "他tā", "好hǎo"],
-					["Berbicara", "说shuō", "听tīnɡ", "看kàn", "写xiě"],
-					["学xué", "belajar", "bertemu", "menulis", "bertemu"],
-					["好hǎo", "baik", "pagi", "memanggil", "belajar"],
-					["Bahasa Mandarin", "汉语hàn yǔ", "写字xiě zì", "画画huà huà", "上学shàngxué"],
-					["Bertemu", "见jiàn", "学xué", "写xiě", "画huà"],
-					["Hari ini", "今天jīntiān", "开学kāi xué", "早上zǎo shanɡ", "今年jīn nián"],
-					["Mulai masuk sekolah", "开学kāi xué", "早上zǎo shanɡ", "今天jīntiān", "上学shàngxué"],
-					["孩子hái zi", "anak", "murid", "guru", "teman"],
-					["写字xiě zì", "menulis", "bertemu", "belajar", "menggambar"],
-					["小红 ：你好nǐ hǎo！                                       宝宝 ：......", "你好nǐ hǎo", "再见zài jiàn", "谢谢xiè xie", "什么shén me"],
-					["小红 ：再见zài jiàn！                                     宝宝 ：......", "再见zài jiàn", "你好nǐ hǎo", "谢谢xiè xie", "什么shén me"],
-					["Adalah", "是shì", "好hǎo", "要yào", "学xué"],
-					["Hari Senin", "星期一xīng qī yī", "星期二xīng qī èr", "星期三xīng qī sān", "星期天xīng qī tiān"],
-					["Saya adalah murid SD.", "我是小学生。", "我要去学校。", "我是好孩子。", "我是好学生。"],
-					["Saya mau pergi ke sekolah.", "我要去学校。", "我是小学生。", "我是好学生。", "我是好孩子。"],
-					["Saya kelas 2.", "我上二年级。", "我是小学生。", "我去上学。", "我是好学生。"],
-					["Hari ini hari Senin.", "今天星期一。", "今天星期二。", "今天星期三。", "今天星期天。"],
-					["Ibu mengantar saya pergi ke sekolah.", "妈妈送我去学校。", "爸爸送我去学校。", "妈妈和我去学校。", "妈妈送我回家。"]];
+		var soal = [["Buku ......", "书 shū", "书包 shū bāo", "尺子 chǐ zi", "铅笔 qiān bǐ"],
+					["书包 shū bāo ......", "tas sekolah", "buku", "penggaris", "pensil"],
+					["Penggaris ......", "尺子 chǐ zi", "书 shū", "书包 shū bāo", "铅笔 qiān bǐ"],
+					["刀子 dāo zi ......", "pisau", "gunting", "rautan", "penggaris"],
+					["Gunting ......", "剪刀 jiǎn dāo", "刀子 dāo zi", "卷笔刀 juàn bǐ dāo", "尺子 chǐ zi"],
+					["卷笔刀 juǎn bǐ dāo ......", "rautan", "pisau", "gunting", "penggaris"],
+					["Pensil ......", "铅笔 qiān bǐ", "圆珠笔 yuán zhū bǐ", "彩色笔 cǎi sè bǐ", "毛笔 máo bǐ"],
+					["Pensil warna ......", "彩色笔 cǎi sè bǐ", "铅笔 qiān bǐ", "圆珠笔 yuán zhū bǐ", "毛笔 máo bǐ"],
+					["Meja ......", "桌子 zhuō zi", "椅子 yǐ zi", "尺子 chǐ zi", "刀子 dāo zi"],
+					["椅子 yǐ zi ......", "kursi", "meja", "penggaris", "pisau"],
+					["Saya ......", "我 wǒ", "有 yǒu", "这 zhè", "是 shì"],
+					["有 yǒu ......", "punya", "saya", "ini", "adalah"],
+					["Ini ......", "这 zhè", "是 shì", "有 yǒu", "没有 méi yǒu"],
+					["Adalah ......", "是 shì", "这 zhè", "有 yǒu", "没有 méi yǒu"],
+					["没有 méi yǒu ......", "tidak punya", "punya", "ini", "adalah"],
+					["Kursi ......", "椅子 yǐ zi", "桌子 zhuō zi", "尺子 chǐ zi", "刀子 dāo zi"],
+					["这是桌子。zhè shì zhuō zi", "Ini adalah meja.", "Ini adalah buku.", "Saya punya rautan.", "Saya punya penggaris."],
+					["Saya punya pensil warna.", "我有彩色笔。", "我没有剪刀。", "这是桌子。", "我有书。"],
+					["Saya tidak punya penggaris.", "我没有尺子。", "我没有剪刀。", "这是桌子。", "我有彩色笔。"],
+					["Ini adalah tas sekolah.", "这是书包。", "这是铅笔。", "我有书包。", "我没有书包。"],
+					["Saya punya buku.", "我有书。", "我没有剪刀。", "我有书包。", "我有铅笔。"]];
 					
 		var ob = this;
-		mpi.kuis("kuisMC", soal, 25, selesaiKuis);
+		mpi.kuis("kuisMC", soal, 20, selesaiKuis);
 		ob.kuisMC.opsi = "A";
 		ob.kuisMC.suaraBenar = "dui";
 		ob.kuisMC.suaraSalah = "cuo";
@@ -707,7 +698,7 @@ if (reversed == null) { reversed = false; }
 		mpi.startKuis();
 		
 		function selesaiKuis(){
-			mpi.popup("popupMC", "成绩", ""+ob.kuisMC.score/2.5, kembali);
+			mpi.popup("popupMC", "成绩", ""+ob.kuisMC.score/2, kembali);
 		}
 		
 		function kembali(){
@@ -716,7 +707,7 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(5).call(this.frame_5).wait(4).call(this.frame_9).wait(4));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(5).call(this.frame_5).wait(4).call(this.frame_9).wait(1));
 
 	// asset
 	this.mulaiBtn = new lib.tombol_mulai();
@@ -725,7 +716,7 @@ if (reversed == null) { reversed = false; }
 	new cjs.ButtonHelper(this.mulaiBtn, 0, 1, 2);
 
 	this.instance = new lib.CachedBmp_1();
-	this.instance.setTransform(-10.05,213.3,0.5,0.5);
+	this.instance.setTransform(-10.05,221.3,0.5,0.5);
 
 	this.timerKuis = new lib.timerMC2();
 	this.timerKuis.name = "timerKuis";
@@ -735,7 +726,7 @@ if (reversed == null) { reversed = false; }
 	this.kuisMC.name = "kuisMC";
 	this.kuisMC.setTransform(719,358.8,1.6,1.5999);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance},{t:this.mulaiBtn}]},5).to({state:[{t:this.kuisMC},{t:this.timerKuis}]},4).to({state:[]},1).wait(3));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance},{t:this.mulaiBtn}]},5).to({state:[{t:this.kuisMC},{t:this.timerKuis}]},4).wait(1));
 
 	// BG
 	this.instance_1 = new lib.birutoscahd();
@@ -747,7 +738,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_3 = new lib.IMG_20250430_101050();
 	this.instance_3.setTransform(0,0,0.3125,0.2786);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1},{t:this.instance_3},{t:this.instance_2}]},4).to({state:[{t:this.instance_1}]},1).wait(7));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1},{t:this.instance_3},{t:this.instance_2}]},4).to({state:[{t:this.instance_1}]},4).wait(1));
 
 	this._renderFirstFrame();
 
@@ -762,13 +753,13 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_1.png?1748236024597", id:"CachedBmp_1"},
-		{src:"images/IMG_20250430_101050.jpg?1748236024597", id:"IMG_20250430_101050"},
-		{src:"images/kls2_atlas_1.png?1748236024512", id:"kls2_atlas_1"},
-		{src:"sounds/dui.mp3?1748236024597", id:"dui"},
-		{src:"sounds/cuo.mp3?1748236024597", id:"cuo"},
-		{src:"sounds/wan.mp3?1748236024597", id:"wan"},
-		{src:"sounds/dao.mp3?1748236024597", id:"dao"}
+		{src:"images/CachedBmp_1.png?1757125337842", id:"CachedBmp_1"},
+		{src:"images/IMG_20250430_101050.jpg?1757125337842", id:"IMG_20250430_101050"},
+		{src:"images/kls2_atlas_1.png?1757125337766", id:"kls2_atlas_1"},
+		{src:"sounds/dui.mp3?1757125337842", id:"dui"},
+		{src:"sounds/cuo.mp3?1757125337842", id:"cuo"},
+		{src:"sounds/wan.mp3?1757125337842", id:"wan"},
+		{src:"sounds/dao.mp3?1757125337842", id:"dao"}
 	],
 	preloads: []
 };
